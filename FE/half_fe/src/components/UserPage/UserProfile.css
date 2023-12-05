@@ -1,0 +1,42 @@
+.container-profile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    gap: 50px;
+    margin: 0 auto;
+    padding: 30px;
+    border-style: solid;
+    border-width: 1px;
+  }
+
+  .container-profile > div {
+    flex-basis: calc(50% - 10px);
+    margin-bottom: 10px;
+  }
+
+  .container-profile > div:last-child {
+    margin-bottom: 0;
+  }
+
+  .container-profile textarea,
+  .container-profile input {
+    border-style: solid;
+    border-width: 1px;
+  }
+
+  .container-profile button{
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+    border-style: solid;
+    border-radius: 20px;
+  }
+  .edit-profile h1{
+text-align: center;
+padding-bottom: 40px;
+padding-top: 40px;
+  }

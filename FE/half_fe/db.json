@@ -1,0 +1,533 @@
+{
+  "user": [
+    {
+      "id": "ID2",
+      "fullname": "Emily Johnson",
+      "username": "instructor1",
+      "email": "emily.johnson@example.com",
+      "password": "password2",
+      "userRoleId": "UR2",
+      "status": true
+    },
+    {
+      "id": "ID1",
+      "fullname": "Michael Smith",
+      "username": "student1",
+      "email": "michael.smith@example.com",
+      "password": "password1",
+      "userRoleId": "UR1",
+      "status": true
+    }
+  ],
+  "level": [
+    {
+      "id": "L1",
+      "name": "Beginner"
+    },
+    {
+      "id": "L2",
+      "name": "Intermediate"
+    },
+    {
+      "id": "L3",
+      "name": "Advance"
+    },
+    {
+      "id": "L4",
+      "name": "Professional"
+    },
+    {
+      "id": "L5",
+      "name": "Expert"
+    }
+  ],
+  "role": [
+    {
+      "id": 1,
+      "name": "Admin"
+    },
+    {
+      "id": 2,
+      "name": "Student"
+    },
+    {
+      "id": 3,
+      "name": "Instructor"
+    }
+  ],
+  "userRole": [
+    {
+      "id": "UR1",
+      "roleId": 2
+    },
+    {
+      "id": "UR2",
+      "roleId": 3
+    }
+  ],
+  "instructor": [
+    {
+      "id": "I1",
+      "name": "Emily Johnson",
+      "email": "emily.johnson@example.com",
+      "certificate": "Certificate of Excellence in Art",
+      "rate": 5,
+      "summarize": "Experienced in Art Selling",
+      "role": "instructor",
+      "status": true
+    }
+  ],
+  "student": [
+    {
+      "id": "S1",
+      "username": "mark00",
+      "password": "Mark00",
+      "name": "Mark Johnson",
+      "email": "mark.johnson@example.com",
+      "role": "student",
+      "status": true
+    }
+  ],
+  "category": [
+    {
+      "id": "C1",
+      "name": "Paintings"
+    },
+    {
+      "id": "C2",
+      "name": "Sculptures"
+    },
+    {
+      "id": "C3",
+      "name": "Photography"
+    },
+    {
+      "id": "C4",
+      "name": "Pottery"
+    },
+    {
+      "id": "C5",
+      "name": "Jewelry"
+    },
+    {
+      "id": "C6",
+      "name": "Textile Art"
+    },
+    {
+      "id": "C7",
+      "name": "Digital Art"
+    },
+    {
+      "id": "C8",
+      "name": "Mixed Media"
+    }
+  ],
+  "enroll": [
+    {
+      "id": "E1",
+      "userName": "student1",
+      "courseId": "CRS1",
+      "status": true
+    },
+    {
+      "enroll_date": "2023-10-28",
+      "id": "f68wbps"
+    },
+    {
+      "enroll_date": "2023-10-28",
+      "id": "ZPD21xX"
+    }
+  ],
+  "artwork": [
+    {
+      "id": "AW1",
+      "enrollTopicId": "ET1",
+      "userId": "ID1",
+      "instructorId": "I1",
+      "status": true
+    }
+  ],
+  "review": [
+    {
+      "id": "RV1",
+      "studentId": "S1",
+      "courseId": "CRS1",
+      "rate": 4,
+      "comment": "Great insights into art selling",
+      "date": "2023-10-10",
+      "status": true
+    },
+    {
+      "id": "RV2",
+      "studentId": "S1",
+      "courseId": "CRS1",
+      "rate": 4,
+      "comment": "Great outside into art selling",
+      "date": "2023-10-10",
+      "status": true
+    }
+  ],
+  "course": [
+    {
+      "instructorId": "I1",
+      "cateId": "C1",
+      "level": "L1",
+      "review": "RV1",
+      "id": "CRS1",
+      "name": "Art Selling Basieee",
+      "description": "A comprehensive guide to selling art only online",
+      "date": "2023-10-08",
+      "viewer": 50,
+      "rate": 4,
+      "status": true,
+      "category": "Mixed Media"
+    },
+    {
+      "instructorId": "I1",
+      "cateId": "C1",
+      "level": "L2",
+      "review": "RV2",
+      "id": "CRS2",
+      "name": "Art Selling Advance",
+      "description": "A comprehensive guide to selling art online and offline",
+      "date": "2023-10-08",
+      "viewer": 50,
+      "rate": 4,
+      "status": true
+    },
+    {
+      "name": "Silver Fork",
+      "description": "mommooooo",
+      "level": "Professional",
+      "category": "Jewelry",
+      "id": "MdUnTac"
+    },
+    {
+      "name": "Candy Bear",
+      "description": "mommooooo",
+      "level": "Expert",
+      "category": "Sculptures",
+      "date": "2023-10-24",
+      "id": "mguUZhH"
+    },
+    {
+      "name": "Patterned plate",
+      "description": "mommooooo",
+      "level": "Advance",
+      "category": "Photography",
+      "date": "2023-10-24",
+      "status": true,
+      "rate": "4",
+      "id": "4xRUWGH"
+    },
+    {
+      "name": "ádadasdadada",
+      "description": "ádasdasdasd",
+      "level": "Intermediate",
+      "category": "Digital Art",
+      "date": "2023-10-30",
+      "status": true,
+      "rate": "4",
+      "id": "jqrY7jH"
+    },
+    {
+      "name": "asd",
+      "description": "asd",
+      "level": "Beginner",
+      "category": "Sculptures",
+      "date": "2023-10-30",
+      "status": true,
+      "rate": "4",
+      "id": "vLhp_Os"
+    },
+    {
+      "name": "aaaaaaaa",
+      "description": "asasdsad",
+      "level": "",
+      "category": "",
+      "date": "2023-10-30",
+      "status": true,
+      "rate": "4",
+      "upload_date": "12/12/2012",
+      "viewer": "10",
+      "id": "0CmzuO-"
+    }
+  ],
+  "chapter": [
+    {
+      "id": "T1",
+      "name": "Introduction to Art Selling",
+      "url": "https://www.example.com/intro_art_selling",
+      "courseId": "CRS1"
+    },
+    {
+      "id": "T2",
+      "name": "Marketing Strategies for Art",
+      "url": "https://www.example.com/marketing_strategies_for_art",
+      "courseId": "CRS1"
+    },
+    {
+      "id": "T3",
+      "name": "Art Pricing Techniques",
+      "url": "https://www.example.com/art_pricing_techniques",
+      "courseId": "CRS1"
+    },
+    {
+      "courseId": "CRS1",
+      "name": "kokoo",
+      "videoURL": "http://picture.com",
+      "id": "T4"
+    },
+    {
+      "courseId": "jBHDCrV",
+      "name": "kokoo",
+      "videoURL": "http://video.com",
+      "id": "T5"
+    },
+    {
+      "courseId": "jBHDCrV",
+      "name": "kokoo",
+      "videoURL": "http://picture.com",
+      "id": "T6"
+    },
+    {
+      "courseId": "CRS1",
+      "name": "Art Selling Basics",
+      "description": "linking",
+      "id": "T7"
+    },
+    {
+      "courseId": "CRS1",
+      "name": "Patterned plate",
+      "description": "A guide to selling art only offline",
+      "id": "T8"
+    },
+    {
+      "courseId": "CRS1",
+      "name": "Patterned plate",
+      "description": "A comprehensive guide to selling art only online",
+      "id": "T9"
+    },
+    {
+      "courseId": "CRS1",
+      "name": "Drawing Boat Basics",
+      "description": "Tiny, pretty and useful",
+      "status": true,
+      "id": "I6xQVuF"
+    },
+    {
+      "courseId": "CRS1",
+      "name": "Patterned paper",
+      "description": "Apply to dress",
+      "status": true,
+      "id": "VkfiKnv"
+    },
+    {
+      "courseId": "CRS1",
+      "name": "Candy Bear",
+      "description": "Design candy",
+      "status": true,
+      "id": "qMphqkN"
+    },
+    {
+      "courseId": "CRS1",
+      "name": "Homework",
+      "description": "Design everything you want",
+      "id": "mumuuo",
+      "status": true
+    },
+    {
+      "courseId": "CRS1",
+      "name": "kakaka",
+      "description": "1212312313123123213",
+      "status": true,
+      "id": "ClHU7mB"
+    },
+    {
+      "courseId": "undefined",
+      "name": "aaaaa",
+      "description": "cvvvvv",
+      "status": true,
+      "id": "I527Bh1"
+    }
+  ],
+  "item": [
+    {
+      "id": "ITE1",
+      "name": "About Art Basis",
+      "chapterId": "T1",
+      "content": "First we should know who discorvery art?",
+      "status": true
+    },
+    {
+      "id": "ITE2",
+      "name": "About Art Medium",
+      "chapterId": "T1",
+      "content": "Second we should learn about how art born?",
+      "status": true
+    },
+    {
+      "id": "ITE3",
+      "name": "About Art Advance",
+      "chapterId": "T1",
+      "content": "Third we summary it?",
+      "status": true
+    },
+    {
+      "chapterId": "T1",
+      "name": "Silver Fork",
+      "content": "hihihii",
+      "id": "ITE4",
+      "status": true
+    },
+    {
+      "chapterId": "T1",
+      "name": "Animation with words",
+      "content": "https://www.youtube.com/watch?v=iP0Ni_FAeyw",
+      "id": "ITE5",
+      "status": true
+    },
+    {
+      "chapterId": "T1",
+      "name": "How we can draw",
+      "content": "https://www.youtube.com/watch?v=CgMD6VykQXQ",
+      "id": "ITE6",
+      "status": true
+    },
+    {
+      "chapterId": "T1",
+      "name": "That why we need to learning",
+      "content": "https://www.youtube.com/watch?v=xvBUgdKUz5g",
+      "id": "ITE7",
+      "status": true
+    },
+    {
+      "chapterId": "T2",
+      "name": "What we need to learning",
+      "content": "https://www.youtube.com/watch?v=TIu_KrdWO1M",
+      "id": "ITE8",
+      "status": true
+    },
+    {
+      "chapterId": "T3",
+      "name": "How we can to learning",
+      "content": "https://www.youtube.com/watch?v=xvBUgdKUz5g",
+      "id": "ITE9",
+      "status": true
+    },
+    {
+      "chapterId": "T3",
+      "name": "Silver Fork",
+      "content": "hihihii",
+      "id": "ITE10",
+      "status": true
+    },
+    {
+      "chapterId": "mumuuo",
+      "name": "Peer graded",
+      "content": "Home work: Design pattern for bowl",
+      "id": "ITE12",
+      "status": true
+    }
+  ],
+  "blogs": [
+    {
+      "postID": "post1",
+      "userRoleID": "user1",
+      "cateID": "pottery",
+      "title": "topic1 aaaaaaaaaaaaaaaaaaaaaa",
+      "content": "Part three – the essential skills that mark out a real pro"
+    },
+    {
+      "postID": "post2",
+      "userRoleID": "user2",
+      "cateID": "pottery",
+      "title": "topic2 aaaaaaaaaaaaaaaaaaaaaa",
+      "content": "Part three – the essential skills that mark out a real pro"
+    },
+    {
+      "postID": "post3",
+      "userRoleID": "user3",
+      "cateID": "pottery",
+      "title": "topic3 aaaaaaaaaaaaaaaaaaaaaa",
+      "content": "Part three – the essential skills that mark out a real pro"
+    },
+    {
+      "postID": "post4",
+      "userRoleID": "user3",
+      "cateID": "pottery",
+      "title": "topic3",
+      "content": "Part three – the essential skills that mark out a real pro"
+    },
+    {
+      "postID": "post5",
+      "userRoleID": "user3",
+      "cateID": "pottery",
+      "title": "topic3",
+      "content": "Part three – the essential skills that mark out a real pro"
+    },
+    {
+      "postID": "post6",
+      "userRoleID": "user3",
+      "cateID": "pottery",
+      "title": "topic3",
+      "content": "Part three – the essential skills that mark out a real pro"
+    },
+    {
+      "postID": "post12",
+      "userRoleID": "user1",
+      "cateID": "pottery",
+      "title": "topic1",
+      "content": "Part three – the essential skills that mark out a real pro"
+    },
+    {
+      "postID": "post23",
+      "userRoleID": "user2",
+      "cateID": "pottery",
+      "title": "topic2",
+      "content": "Part three – the essential skills that mark out a real pro"
+    },
+    {
+      "postID": "post13",
+      "userRoleID": "user3",
+      "cateID": "oil",
+      "title": "topic3",
+      "content": "Part three – the essential skills that mark out a real pro"
+    },
+    {
+      "postID": "post32",
+      "userRoleID": "user3",
+      "cateID": "oil",
+      "title": "topic3",
+      "content": "Part three – the essential skills that mark out a real pro"
+    },
+    {
+      "postID": "post73",
+      "userRoleID": "user3",
+      "cateID": "oil",
+      "title": "topic3",
+      "content": "Part three – the essential skills that mark out a real pro"
+    },
+    {
+      "postID": "post31",
+      "userRoleID": "user3",
+      "cateID": "inlay",
+      "title": "topic3",
+      "content": "Part three – the essential skills that mark out a real pro"
+    },
+    {
+      "postID": "post32",
+      "userRoleID": "user3",
+      "cateID": "inlay",
+      "title": "topic3",
+      "content": "Part three – the essential skills that mark out a real pro"
+    },
+    {
+      "postID": "post34",
+      "userRoleID": "user3",
+      "cateID": "inlay",
+      "title": "topic3",
+      "content": "Part three – the essential skills that mark out a real pro"
+    }
+  ]
+}
